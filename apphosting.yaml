@@ -1,0 +1,9 @@
+# 放在项目根目录下
+runConfig:
+  maxInstances: 2
+  memory: 2Gi
+  cpu: 1
+
+env:
+  - variable: NODE_VERSION
+    value: "20.x"
